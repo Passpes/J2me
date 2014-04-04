@@ -33,7 +33,7 @@ public class Deal {
     public Deal() {
     }
 
-    @Override
+    
     public String toString() {
         return "Deal{" + "ref_deal=" + ref_deal + ", titre_deal=" + titre_deal + ", marque_deal=" + marque_deal + ", desc_deal=" + desc_deal + ", prix_initial=" + prix_initial + ", prix_reduction=" + prix_reduction + ", date_depot=" + date_depot + ", date_expiration=" + date_expiration + '}';
     }
